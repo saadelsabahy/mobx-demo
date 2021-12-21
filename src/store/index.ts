@@ -53,9 +53,6 @@ class Store {
 		this.toDos.splice(this.editedToDo.index!, 1, this.todoWithoutIndex);
 		store.toggleEditMode();
 		this.AddTodoStore.clearInput();
-		//this.toDos = this.toDos;
-		//this.toDos = todosAfterEdit;
-		// console.log({ todosAfterEdit: toJS(todosAfterEdit) });
 	}
 }
 const store = new Store();
